@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Create
+</title>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <form method="post" onsubmit="validate()" name="cform" id="form" action="Create.php">
+        <div>
+            <label for="nfield">Name:</label>
+            <input type="text" name="namefield" id="nfield" placeholder="Name:" required>
+        </div>
+        <div>
+            <label for="emailf">E-mail:</label>
+            <input type="email" name="emailfield" id="emailf"  placeholder="E-mail:" required>
+        </div>
+        <div>
+            <label for="agef">Age:</label>
+            <input type="number" id="agef" placeholder="Age:" name="agefield" required>
+        </div>
+        <div>
+            <input type="submit" name="insdata" value="Create">
+            </div>
+        </form>
+
+        <script type="text/javascript>
+var nameval=document.forms["cform"]["namefield"].value;
+var emailval=document.forms["cform"]["emailfield"].value;
+var ageval=document.forms["cform"]["agefield"].value;
+var arr1=[nameval,emailval,ageval];
+var ln=arr1.length;
+for(var i=0;i<ln;i++){
+if(arr1[i]==" "){
+confirm("Please full the field");
+}
+
+}
+            </script>
+</body>
+</html>
+
+
+
+
+

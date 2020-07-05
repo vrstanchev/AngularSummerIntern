@@ -1,0 +1,17 @@
+{
+  "name": "app_manager",
+  "version": "1.0.0",
+  "description": "app manager practical app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app_manager"
+  ],
+  "author": "veselin stanchev",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  }
+}

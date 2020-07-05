@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Update
+</title>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <form method="post" action="Update.php">
+        <div>
+            <input type="hidden" name="id" value="<? echo $id ?>">
+        </div>
+        <div>
+            <label for="nfield">Name:</label>
+            <input type="text" name="namefield" id="nfield" placeholder="Name:" value="<? echo $data['namefield'];  ?>" required>
+        </div>
+        <div>
+            <label for="emailf">E-mail:</label>
+            <input type="email" name="emailfield" id="emailf"  placeholder="E-mail:"  value="<? echo $data['emailfield'];  ?>" required>
+        </div>
+        <div>
+            <label for="agef">Age:</label>
+            <input type="number" id="agef" placeholder="Age:" name="agefield" value="<? echo $data['agefield'];  ?>" required>
+        </div>
+        <div>
+            <input type="submit" value="Update" name="upddata" >
+            </div>
+        </form>
+
+
+</body>
+</html>
+
+
+
+
+

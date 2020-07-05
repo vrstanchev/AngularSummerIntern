@@ -1,0 +1,30 @@
+#form{
+text-align: center;
+font-family: sans-serif;
+}
+a:hover{
+background-color: green;
+}
+body{
+background-color: grey;
+}
+.nav{
+   background-color: #444;
+   overflow: hidden;
+   position: fixed;
+   width: 100%;
+}
+.nav a{
+    float: left;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+   
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
