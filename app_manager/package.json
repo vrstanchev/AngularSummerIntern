@@ -12,6 +12,6 @@
   "author": "veselin stanchev",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.1.5"
   }
 }
